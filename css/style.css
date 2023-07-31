@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'NeurialGroteskRegular';
+    color: #211C1D;
+}
+@font-face {
+    font-family: 'NeurialGroteskBold';
+    src: url('../fonts/NeurialGroteskBold.eot');
+    src: url('../fonts/NeurialGroteskBold.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskBold.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskBold.woff') format('woff'),
+         url('../fonts/NeurialGroteskBold.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskBold.svg#NeurialGroteskBold') format('svg');
+}
+@font-face {
+    font-family: 'NeurialGroteskRegular';
+    src: url('../fonts/NeurialGroteskRegular.eot');
+    src: url('../fonts/NeurialGroteskRegular.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskRegular.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskRegular.woff') format('woff'),
+         url('../fonts/NeurialGroteskRegular.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskRegular.svg#NeurialGroteskRegular') format('svg');
+}
+@font-face {
+    font-family: 'NeurialGroteskLight';
+    src: url('../fonts/NeurialGroteskLight.eot');
+    src: url('../fonts/NeurialGroteskLight.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskLight.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskLight.woff') format('woff'),
+         url('../fonts/NeurialGroteskLight.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskLight.svg#NeurialGroteskLight') format('svg');
+}
+
+.space-from-left-right{
+    padding: 0px 60px;
+}
+.navbar-nav .nav-link{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.navbar-nav{
+    margin: auto;
+}
+.social-icons ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.social-icons ul li a{
+    color: #000000;
+    font-size: 20px;
+}
+.icon-button{
+    color: #000;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.social-icons{
+    margin: 0px 50px;
+}
+.btn-standerd{
+    border-radius: 4px;
+    background: #000;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+.btn{
+    font-family: 'Manrope', sans-serif;
+}
+.header-button .btn-standerd{
+    margin-left: 50px;
+}
+.banner-section{
+    text-align: center;
+    border-radius: 0px 0px 100px 100px;
+}
+.banner-section h6{
+    color: #2D2D2D;
+    text-align: center;
+    font-family: 'NeurialGroteskBold';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-section h1{
+    color: #2D2D2D;
+    text-align: center;
+    font-family: 'NeurialGroteskLight';
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.banner-section p{
+    color: #211C1D;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'NeurialGroteskRegular';
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.banner-content{
+    padding: 150px 0px 500px;
+}
+.tab-button h6{
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 400;
+    margin: 10px 0px 0px;
+    color: #2D2D2D;
+}
+.tab-button{
+    margin: 0px 10px;
+}
+.banner-tabs-wrapper .nav-tabs .nav-link{
+    border: 0px;
+    background: transparent;
+}
+.nav-link.active .tab-button h6{
+    border-bottom: 3px solid #EDBA37;
+}
+.banner-tabs-wrapper .nav.nav-tabs{
+    border-bottom: 0px !important;
+    margin-bottom: 50px;
+}
+.software-features{
+    background-color: #f5f5f5;
+}
+.banner-tabs-wrapper{
+    margin-top: -400px;
+}
+.section-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+.features-slider{
+    padding: 100px 0px;
+}
+@media only screen and (min-width: 1920px){
+    .container-fluid {
+        width: 1720px;
+    }
+}
