@@ -147,6 +147,19 @@ body{
 .features-slider{
     padding: 100px 0px;
 }
+.features-slider-wrapper{
+    margin-top: 40px;
+}
+.features-slider-wrapper h6{
+    font-size: 25px;
+    font-family: 'NeurialGroteskBold';
+}
+.features-slider-wrapper p{
+    font-size: 18px;
+}
+.features-slider-content{
+    padding: 0px 20px;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
