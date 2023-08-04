@@ -160,6 +160,43 @@ body{
 .features-slider-content{
     padding: 0px 20px;
 }
+
+.owl-prev,.owl-next{
+    width: 85px;
+    height: 85px;
+    box-shadow: 0px 0px 10px 0px #dddddd;
+    border-radius: 100px;
+}
+.owl-prev span,.owl-next span{
+    font-size: 0px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background-image: url(../images/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    left: 30px;
+    right: auto;
+    background-color: #FFFFFF;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background-image: url(../images/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    right: 30px;
+    left: auto;
+    background-color: #FFFFFF;
+}
+.owl-one.owl-carousel{
+    position: relative;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
