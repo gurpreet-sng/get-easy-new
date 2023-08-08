@@ -170,6 +170,9 @@ h4{
     font-size: 50px;
     font-weight: 400;
 }
+.section-title.section-title-light{
+    font-family: 'NeurialGroteskLight';
+}
 .space-top-bottom100{
     padding: 100px 0px;
 }
@@ -229,10 +232,137 @@ h4{
 .flawless-experience-section{
     background-color: #ffffff;
 }
-.appointment-reminders{
+.flawless-experience-section{
+    background-image: url(../images/blue-shape.png);
+    background-repeat: no-repeat;
+    background-position: right 190px;
+    background-size: 670px 800px;
+}
+.flawless-experience-section .nav-pills .nav-link.active{
+    background: transparent;
+    color: #000000;
+}
+.flawless-experience-section .nav-pills .nav-link.active p{
+    display: block;
+}
+.flawless-experience-section .nav-pills .nav-link.active{
+    background: transparent;
+    padding: 0px;
+}
+.flawless-experience-section .nav-pills .nav-link p{
+    display: none;
+}
+.flawless-experience-section .nav-pills .nav-link .appointment-reminders{
+    background: transparent;
+    color: #000000;
+}
+.flawless-experience-section .nav-pills .nav-link.active .appointment-reminders{
     background: #eff0f5;
 }
-
+.flawless-experience-section .nav-pills .nav-link{
+    text-align: left;
+    padding: 0px;
+}
+.flawless-experience-section .nav-pills .nav-link .appointment-reminders h3{
+    background-image: url(../images/acc-arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    padding-left: 25px;
+}
+.flawless-experience-section .nav-pills .nav-link.active .appointment-reminders h3{
+    background-image: none;
+    padding-left: 0px;
+}
+.flawless-tab{
+    padding-left: 40px;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 30px;
+}
+.owl-dots span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #407BFF;
+    margin: 0px 3px;
+}
+.owl-dot.active span{
+    background-color: #407BFF ;
+}
+.space-top-bottom150{
+    padding: 150px 0px;
+}
+.see-how h3{
+    font-size: 60px;
+}
+.video-section a{
+    font-size: 18px;
+    color: #0655FF;
+    text-decoration: underline;
+    font-weight: 700;
+    display: block;
+}
+.see-how{
+    padding-left: 60px;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
+.client-logo{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.expand-service{
+    background-color: #ffffff;
+}
+.title90{
+    font-size: 90px;
+}
+.p28{
+    font-size: 28px;
+    color: #000;
+    line-height: 45px;
+    margin-bottom: 0px;
+}
+.main-footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main-footer h3{
+    font-family: 'NeurialGroteskBold';
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.main-footer ul li a{
+    font-size: 16px;
+    font-family: 'NeurialGroteskBold';
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+.countries li{
+    width: 50%;
+    float: left;
+}
+.main-footer ul li a i{
+    margin-left: 10px;
+}
+.main-footer .social-icons ul li a i{
+    font-size: 25px;
+}
+.white-footer{
+    background-color: #ffffff;
+}
+.white-footer a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
