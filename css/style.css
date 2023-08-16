@@ -363,6 +363,30 @@ h4{
     text-decoration: none;
     margin-bottom: 5px;
 }
+.main-footer.space-top-bottom100{
+	padding: 100px 0px 0px;
+}
+.copyright-links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0px 10px;
+}
+.copyright-links ul li{
+    list-style: none;
+    display: inline-block;
+}
+.copyright-section-wrapper{
+    background-color: #ffffff;
+    border-top: 1px solid #C0C0C0;
+}
+.border-right{
+    border-right:1px solid #C0C0C0;
+}
+.btn-standerd:hover{
+    background-color: #EDBA37;
+}
+
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
