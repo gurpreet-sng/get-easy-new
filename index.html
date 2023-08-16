@@ -27,7 +27,7 @@
                     <!-- Fixed navbar -->
                     <nav class="navbar navbar-expand-md navbar-dark">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                            <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -215,7 +215,7 @@
             <h2 class="section-title">
                 Here are some of the key features of<br> our Unique QR Portal
             </h2>
-            <section class="banner-section-wrapper">
+            <section class="features-section-wrapper">
                 <div class="features-slider-wrapper">
                     <div class="owl-one owl-carousel owl-theme">
                         <div class="item">
@@ -712,8 +712,16 @@
                 dots: false,
                 margin: 10,
                 responsive: {
+                    0:{
+                        items:1,
+                        nav:true
+                    },
                     600: {
-                        items: 4
+                        items: 3,
+                    },
+                    1000:{
+                        items:4,
+                        
                     }
                 }
             });
