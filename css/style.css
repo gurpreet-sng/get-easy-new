@@ -37,8 +37,76 @@ h4{
          url('../fonts/NeurialGroteskLight.ttf') format('truetype'),
          url('../fonts/NeurialGroteskLight.svg#NeurialGroteskLight') format('svg');
 }
+.why-easy-box h6 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.key-features.flex-d-coll h5{
+    font-size: 25px;
+}
+.why-easy-box i {
+    display: flex;
+    height: 115px;
+    align-items: center;
+    justify-content: center;
+}
+header.peach-background{
+    background-color: #FEDBD5;
+}
+.key-features.key-features-peach:before{
+    background-color: #FEDBD5;
+}
+.automate-management{
+    border-radius: 45px;
+    padding: 100px 60px;
+    position: relative;
+    z-index: 1;
+}
+.key-features.why-easy{
+    flex-direction: column;
+}
+.peach-color{
+    background-color: #FEDBD5;
+}
+.key-features.flex-d-coll{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+}
+.banner-section.peach-background:before{
+    background-color: #FEDBD5;
+}
 .key-features.key-features-pink:before{
     background-color: #ECE3FC;
+}
+.grey-footer .main-footer{
+    background-color: #F5F5F5;
+}
+header.green-background{
+    background-color: #C2FFE0;
+}
+.key-features.key-features-green:before{
+    background-color: #D2FFEA;
+}
+.banner-section.green-background:before{
+    background-color: #C2FFE0;
+}
+.banner-section.brown-background:before{
+    background-color: #FFCEA3;
+}
+.background-color-grey{
+    background-color: #F5F5F5;
+}
+.key-features.key-features-brown:before{
+    background-color: #FFF0E1;
+}
+header.brown-background{
+    background-color: #FFCEA3;
+}
+.padding-bottom-zero{
+    padding-bottom: 0px !important;
 }
 header.water-blue-background{
     background-color: #ABFCFF;
@@ -640,9 +708,38 @@ b{
     .main-footer .col-lg-3.col-md-6{
         margin-bottom: 30px;
     }
+    .space-top-100.image-content-row .ps-5{
+        padding-left: 0px !important;
+    }
+    .column-reverse-on-mobile{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .column-reverse-on-mobile .pe-5{
+        padding-right: 0px !important;
+        padding-top: 40px;
+    }
+    .why-easy-box{
+        margin-bottom: 40px;
+    }
+    .why-easy-box h6{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 767px){
 
+    .key-features.full-width-box.why-easy {
+        padding-bottom: 30px;
+    }
+    .space-top-100.image-content-row{
+        padding-top: 40px;
+    }
+    .automate-management .mt-5{
+        margin-top: 0px !important;
+    }
+    .automate-management{
+        padding: 60px 30px;
+    }
     .main-footer.space-top-bottom100{
         text-align: center;
     }
