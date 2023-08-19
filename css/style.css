@@ -37,6 +37,44 @@ h4{
          url('../fonts/NeurialGroteskLight.ttf') format('truetype'),
          url('../fonts/NeurialGroteskLight.svg#NeurialGroteskLight') format('svg');
 }
+
+.navbar-nav .nav-item{
+    position: relative;
+}
+.megamenu-wrapper{
+    position: absolute;
+    width: 1400px;
+    left: -470px;
+    margin: auto;
+    display: flex;
+    background-color: #ffffff;
+    z-index: 1;
+    padding: 40px;
+    box-shadow: 0px 0px 10px #dddddd;
+    display: none;
+}
+.megamenu-links-wrapper ul{
+    padding: 0px;
+    margin: 0px;
+}
+.megamenu-links-wrapper ul li{
+    list-style: none;
+}
+.megamenu-links-wrapper ul li a{
+    text-decoration: none;
+    display: flex;
+}
+.megamenu-links-wrapper ul li a i{
+    margin-right: 6px;
+}
+.megamenu-links-content h6{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.megamenu-image{
+    width: 745px;
+}
 header.baby-pink-background{
     background-color: #FEDFFA;
 }
