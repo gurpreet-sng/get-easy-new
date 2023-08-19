@@ -37,6 +37,93 @@ h4{
          url('../fonts/NeurialGroteskLight.ttf') format('truetype'),
          url('../fonts/NeurialGroteskLight.svg#NeurialGroteskLight') format('svg');
 }
+header.baby-pink-background{
+    background-color: #FEDFFA;
+}
+header.pink-orange-background{
+    background-color: #FFB09F;
+}
+header.grey-blue-background{
+    background-color: #ADDEEC;
+}
+header.kobi-pink-background{
+    background-color: #FCC7D1;
+}
+header.mint-background{
+    background-color: #CAFBE5;
+}
+.banner-section.grey-blue-background:before{
+    background-color: #ADDEEC;
+}
+.key-features.key-features-grey-blue:before{
+    background-color: #ADDEEC;
+}
+.grey-blue{
+    background-color: #ADDEEC;
+}
+.banner-section.mint-background:before{
+    background-color: #CAFBE5;
+}
+.key-features.key-features-mint:before{
+    background-color: #CAFBE5;
+}
+.mint-color{
+    background-color: #CAFBE5;
+}
+.key-features.key-features-kobi-pink:before{
+    background-color: #FCC7D1;
+}
+.kobi-pink{
+    background-color: #FCC7D1;
+}
+.banner-section.kobi-pink-background:before{
+    background-color: #FCC7D1;
+}
+.banner-section.pink-orange-background:before {
+    background-color: #FFB09F;
+}
+.key-features.key-features-pink-orange:before{
+    background-color: #FFB09F;
+}
+.light-orange{
+    background-color: #FED1CB;
+}
+header.baby-pink-background{
+    background-color: #FEDFFA;
+}
+.key-features.key-features-baby-pink:before{
+    background-color: #FEDFFA;
+}
+.baby-pink{
+    background-color: #FEDFFA;
+}
+header.baby-blue-background{
+    background-color: #ABFCFF;
+}
+header.lemon-yellow-background{
+    background-color: #FFF7B9;
+}
+.banner-section.baby-pink-background:before{
+    background-color: #FEDFFA;
+}   
+.banner-section.baby-blue-background:before{
+    background-color: #ABFCFF;
+}
+.baby-blue{
+    background-color: #ABFCFF;
+}
+.key-features.key-features-baby-blue:before{
+    background-color: #ABFCFF;
+}
+.lemon-yellow{
+    background-color: #FFF7B9;
+}
+.banner-section.lemon-yellow-background:before{
+    background-color: #FFF7B9;
+}
+.key-features.key-features-lemon-yellow:before{
+    background-color: #FFF7B9;
+}
 .why-easy-box h6 {
     font-size: 25px;
     font-weight: 700;
@@ -602,6 +689,12 @@ b{
 }
 @media only screen and (max-width: 1199px){
 
+    br{
+        display: none;
+    }
+    .key-features{
+        height: auto;
+    }
     .key-features.full-width-box{
         width: 96%;
         margin: auto;
@@ -641,9 +734,6 @@ b{
 
    .key-feature-section .key-features{
         margin-bottom: 50px;
-    }
-    .key-features {
-        height: auto;
     }
     .banner-section h1{
         font-size: 70px;
@@ -731,6 +821,9 @@ b{
     .key-features.full-width-box.why-easy {
         padding-bottom: 30px;
     }
+    .automate-management-section .btn.mt-5{
+        margin-top: 0px !important;
+    }
     .space-top-100.image-content-row{
         padding-top: 40px;
     }
@@ -815,6 +908,9 @@ b{
 }
 @media only screen and (max-width: 575px){
 
+    body.grey-footer .white-footer.py-5{
+        padding-top: 60px !important;
+    }
     .white-footer.py-5{
         padding: 0px !important;
     }
