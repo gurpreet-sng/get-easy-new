@@ -386,8 +386,8 @@ header.white-background{
     border: 2px solid #000000;
     width: 103%;
     height: 110%;
-    top: -11px;
-    left: -9px;
+    top: -8px;
+    left: -8px;
     border-radius: 5px;
     transition: .4s;
 }
