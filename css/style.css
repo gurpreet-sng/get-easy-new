@@ -300,6 +300,9 @@ header.white-background{
 .technology-that-defines-section{
     background-color: #ffffff;
 }
+.technology-that-defines-section .card{
+    text-decoration: none;
+}
 .space-from-left-right{
     padding: 0px 60px;
 }
@@ -412,7 +415,7 @@ header.white-background{
     margin-bottom: 0px;
 }
 .banner-content{
-    padding: 150px 0px 100px;
+    padding: 100px 0px 100px;
 }
 .tab-button h6{
     font-size: 18px;
