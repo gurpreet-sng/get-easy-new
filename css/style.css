@@ -303,6 +303,18 @@ header.white-background{
 .technology-that-defines-section .card{
     text-decoration: none;
 }
+.technology-that-defines-section .card:hover{
+    transform: scale(1.02);
+    transition: 0.4s;    
+}
+.tab-button:hover .tab-button-img{
+    transform: scale(1.1);
+    transition: 0.4s;    
+}
+.feature:hover .feature-icon{
+    transform: scale(1.05);
+    transition: 0.4s;    
+}
 .space-from-left-right{
     padding: 0px 60px;
 }
@@ -362,9 +374,28 @@ header.white-background{
 .btn-standerd{
     border-radius: 4px;
     background: #000;
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
     padding: 10px 30px;
+    background-color: #EDBA37;
+    position: relative;
+}
+.btn-standerd:before{
+    content:"";
+    position: absolute;
+    border: 2px solid #000000;
+    width: 103%;
+    height: 110%;
+    top: -11px;
+    left: -9px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.btn-standerd:hover:before{
+    width: 102%;
+    height: 107%;
+    top: 0px;
+    left: -3px;
 }
 .btn{
     font-family: 'Manrope', sans-serif;
@@ -481,6 +512,14 @@ header.white-background{
     display: flex;
     height: 285px;
     margin: 0px 10px;
+    transition: all 0.4s;
+}
+.key-features:hover{
+    border: 5px solid #EDBA37;
+    transition: all 0.4s;
+}
+.key-features:hover:before{
+    transform: scale(1.02);
 }
 .key-features::before{
     content: "";
@@ -493,6 +532,7 @@ header.white-background{
     padding: 20px;
     left: 20px;
     top: 20px;
+    transition: all 0.4s;
 }
 .key-features-description h5{
     font-family: 'NeurialGroteskBold';
