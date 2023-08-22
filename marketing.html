@@ -188,24 +188,56 @@
             </div>
         </div>
         <div class="mt-5">
-            <marquee>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-                <div class="client-logo"><img class="img-fluid" src="images/dummy-logo.png"></div>
-            </marquee>
+            <div class="owl-three owl-carousel owl-theme">
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+                <div class="item">
+                    <div class="bnn-img"><img src="images/dummy-logo.png"></div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="expand-service space-top-bottom100 mt-5">
@@ -267,6 +299,33 @@
                 autoplayTimeout: 2000,
                 autoplayHoverPause: true
             });
+
+
+            $('.owl-three').owlCarousel({
+            center: true,
+            items:6,
+            loop:true,
+            margin:30,
+            nav:false,
+            dots:false,
+            autoplay: true,
+            slideTransition: 'linear',
+            autoplayTimeout: 6000,
+            autoplaySpeed: 6000,
+            autoplayHoverPause: false,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:6
+                }
+            }
+            });
+
 
             $('.play').on('click', function () {
                 owl.trigger('play.owl.autoplay', [1000])
